@@ -1,2 +1,2 @@
 # bash-scripts
-A repository to store all the bash scripts I've made
+> A repository I created to store all the bash scripts I've done. May get bigger with time!
