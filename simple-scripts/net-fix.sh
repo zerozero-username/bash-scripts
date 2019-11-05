@@ -13,7 +13,7 @@ printf "%s\n\n" "Starting quick net-fix"
 sleep 0.1
 printf "%s\n\n" "Removing resolv.conf from /etc/resolv.conf"
 
-sudo rm /etc/resolv.conf
+sudo rm -r /etc/resolv.conf
 
 sleep 0.1
 printf "%s\n\n" "Copying resolv.conf from /var/run/NetworkManager/resolv.conf to /etc/resolv.conf"
