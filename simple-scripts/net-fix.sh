@@ -12,7 +12,6 @@ printf "%s\n\n" "Removing resolv.conf from /etc/resolv.conf"
 
 sudo rm -r /etc/resolv.conf
 
-
 printf "%s\n\n" "Copying resolv.conf from /var/run/NetworkManager/resolv.conf to /etc/resolv.conf"
 sudo ln -s /var/run/NetworkManager/resolv.conf /etc/resolv.conf
 
