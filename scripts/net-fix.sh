@@ -19,6 +19,6 @@ sudo ln -s /var/run/NetworkManager/resolv.conf /etc/resolv.conf
 printf "%s\n\n" "Updating resolvconf service"
 sudo resolvconf -u
 
-printf "%\n\n" "Updating dhclient!"
+printf "%s\n\n" "Updating dhclient!"
 sudo dhclient -r
 sudo dhclient
