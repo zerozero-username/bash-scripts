@@ -4,17 +4,15 @@ printf "%s\n\n" "It's recommended a reboot after this"
 
 printf "%s\n\n" "Updating!"
 
-sudo -i
+sudo apt-get update
 
-apt-get update
+sudo apt-get upgrade
 
-apt-get upgrade
+sudo apt-get update
 
-apt-get update
+sudo apt-get dist-upgrade
 
-apt-get dist-upgrade
-
-apt-get update
+sudo apt-get update
 
 exit
 
